@@ -1,1 +1,18 @@
-// TODO
+.content{
+  margin: 0 auto;
+  max-width: 1120px;  
+  padding: 4rem 0;
+}
+
+.loadButton{  
+  border: none;
+  background-color: transparent;
+  color: var(--pink);
+  font-size: 1.1rem;
+  font-weight: 700;    
+  margin-bottom: 6rem;  
+
+  &:hover{ 
+    text-decoration: underline;    
+  }  
+}
